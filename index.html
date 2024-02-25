@@ -19,67 +19,30 @@
     <!-- Open Modal -->
     <h1 id="show-modal">Add Bookmark</h1>
     <!-- Bookmarks -->
-    <div id="bookmarks-container" class="container">
-      <div class="item">
-        <i class="fas fa-times" id="delete-bookmark" title="Delete""></i>
-        <div class="name">
-          <img
-            src="https://s2.googleusercontent.com/s2/favicons?domain=www.jacinto.design"
-            alt="Favicon"
-          />
-          <a href="https://www.vitaliyprymak.com" target="_blank"
-            >Vitali Design</a
-          >
-        </div>
-      </div>
-      <div class="item">
-        <i class="fas fa-times" id="delete-bookmark" title="Delete""></i>
-        <div class="name">
-          <img
-            src="https://s2.googleusercontent.com/s2/favicons?domain=www.jacinto.design"
-            alt="Favicon"
-          />
-          <a href="https://www.vitaliyprymak.com" target="_blank"
-            >Vitali Design</a
-          >
-        </div>
-      </div>
-      <div class="item">
-        <i class="fas fa-times" id="delete-bookmark" title="Delete""></i>
-        <div class="name">
-          <img
-            src="https://s2.googleusercontent.com/s2/favicons?domain=www.jacinto.design"
-            alt="Favicon"
-          />
-          <a href="https://www.vitaliyprymak.com" target="_blank"
-            >Vitali Design</a
-          >
-        </div>
-      </div>
-    </div>
+    <div id="bookmarks-container" class="container"></div>
     <!-- Modal -->
     <div class="modal-container" id="modal">
-        <div class="modal">
-            <i class="fas fa-times close-icon" id="close-model"></i>
-            <div class="modal-header">
-                <h3>Add Bookmark</h3>
-            </div>
-            <div class="modal-content">
-                <form id="bookmark-form">
-                    <!-- Website Name -->
-                    <div class="form-group">
-                        <label for="website-name" class="form-label">Website Name </label>
-                        <input type="text" class="form-input" id="website-name">
-                    </div>
-                    <!-- Website URL -->
-                    <div class="form-group">
-                        <label for="website-url" class="form-label">Website URL </label>
-                        <input type="text" class="form-input" id="website-url">
-                    </div>
-                    <button type="submit">Save</button>
-                </form>
-            </div>
+      <div class="modal">
+        <i class="fas fa-times close-icon" id="close-model"></i>
+        <div class="modal-header">
+          <h3>Add Bookmark</h3>
         </div>
+        <div class="modal-content">
+          <form id="bookmark-form">
+            <!-- Website Name -->
+            <div class="form-group">
+              <label for="website-name" class="form-label">Website Name </label>
+              <input type="text" class="form-input" id="website-name" />
+            </div>
+            <!-- Website URL -->
+            <div class="form-group">
+              <label for="website-url" class="form-label">Website URL </label>
+              <input type="text" class="form-input" id="website-url" />
+            </div>
+            <button type="submit" id="btn">Save</button>
+          </form>
+        </div>
+      </div>
     </div>
     <!-- Script -->
     <script src="script.js"></script>
